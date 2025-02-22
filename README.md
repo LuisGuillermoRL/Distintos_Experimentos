@@ -20,7 +20,7 @@ De manera rápida se menciona lo siguiente:
 * La técnica de **CLAHE** también se les aplicó a las imágenes para tratar de ayudar a elevar la tasa de clasificación, para esto, se utilizó la librería de **OpenCV**, utilizando la función **tallllll** con los parámetros standar.
 * Se utilizaó la técnica de *Ensamble: soft voting*, es decir, dado que las predicciones de las CNNs son probabilidades, se pueden promediar para intentar elevar la tasa de clasificación, sin embargo, esto no siempre ayuda a mejorar bastante esta tasa, ya que al relizar esta técnica si bien se promedian sus aciertos, también se promedian sus errores.
 
-Como se puede ver, fueron muchas combinaciones, pero en este repositorio se muestran algunos ejemplos y resultados de los experimentos previamente mencionados. En los otros dos bloques experimentales se experimento de manera diferente. Cabe mencionar que estos experimentos se realizaron en un entorno virtual de **Python (venv)** en *Windows* con **TensorFlow** versión **11** y una **GPU NVIDIA RTX 4080**.
+Como se puede ver, son muchas combinaciones, pero en este repositorio se muestran algunos ejemplos y resultados de los experimentos previamente mencionados y realizados para el tema de Tesis. En los otros dos bloques experimentales se experimento de manera diferente. Cabe mencionar que estos experimentos se realizaron en un entorno virtual de **Python (venv)** en *Windows* con **TensorFlow** versión **11** y una **GPU NVIDIA RTX 4080**.
 
 
 
