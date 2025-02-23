@@ -40,6 +40,7 @@ De manera rápida se menciona lo siguiente:
 
 Como se puede ver, fueron muchas combinaciones las realizadas, por lo que de manera resumida se puede decir que **no hubo un experimento que sobresaliera tanto de los demás**, sin embargo, los resultados en los experimentos en los que se utilizó la capa *GAvgP2D* fueron casi siempre ligeramente menores con respecto al *accuracy* obtenido, manteniéndose más parejo en los restantes. A continuación se muestran dos tablas, una con el resumen experimental con la mejor CNN en cada experimento y otra con el uso de *soft voting*
 
+**Experimento** | **CNN con accuracy obtenido** | **Jaamour et al. (2023)** | **[Lai](https://github.com/leoll2/MedicalCNN/tree/master)**|
 
 Para terminar se menciona que en los otros dos bloques experimentales se experimentó de manera diferente y con código más organizado, involucrando el aprendizaje de máquina y más métodos de ensamble. 
 
