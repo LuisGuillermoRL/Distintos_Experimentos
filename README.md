@@ -34,7 +34,9 @@ De manera rápida se menciona lo siguiente:
 
 ![muestra CLAHE](./docs/CLAHE_mass.png)
 
-* Se utilizó la técnica de *Ensamble soft voting* ([Ejemplo de soft voting y ploteo de las matrices de confusión](https://github.com/LuisGuillermoRL/Distintos_Experimentos/blob/main/votings_results_Mass.ipynb)) en todos los experimentos con los mejores modelos obtenidos para obtener el mayor *accuray* al combinar las predicciones de las CNNs utilizadas, ya que como las predicciones de las CNNs son probabilidades, estas se pueden promediar para intentar elevar la tasa de clasificación, sin embargo, esto no siempre ayuda a mejorar bastante esta tasa, ya que al relizar esta técnica si bien se promedian sus aciertos, también se promedian sus errores.
+* Se utilizó la técnica de *Ensamble soft voting* ([Ejemplo de soft voting con ploteo de las matrices de confusión](https://github.com/LuisGuillermoRL/Distintos_Experimentos/blob/main/votings_results_Mass.ipynb)) en todos los experimentos con los mejores modelos obtenidos para obtener el mayor *accuray* al combinar las predicciones de las CNNs utilizadas, ya que como las predicciones de las CNNs son probabilidades, estas se pueden promediar para intentar elevar la tasa de clasificación, sin embargo, esto no siempre ayuda a mejorar bastante esta tasa, ya que al relizar esta técnica si bien se promedian sus aciertos, también se promedian sus errores.
+
+![MC IND](./docs/indiv_M-B_InceptionV3.png) ![MC Votings](./docs/voings_M-B_VGG16-VGG19.png)
 
 ## Resultados
 
