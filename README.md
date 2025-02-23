@@ -38,7 +38,7 @@ De manera rápida se menciona lo siguiente:
 
 ## Resultados
 
-Como se puede ver, fueron muchas combinaciones las realizadas, por lo que de manera resumida se puede decir que **no hubo un experimento que sobresaliera tanto de los demás**, sin embargo, los resultados en los experimentos en los que se utilizó la capa *GAvgP2D* fueron casi siempre ligeramente menores con respecto al *accuracy* obtenido, manteniéndose más parejo en los restantes. 
+Como se puede ver, fueron muchas las combinaciones realizadas, por lo que de manera resumida se puede decir que **no hubo un experimento que sobresaliera tanto de los demás**, sin embargo, los resultados en los experimentos en los que se utilizó la capa *GAvgP2D* fueron casi siempre ligeramente menores con respecto al *accuracy* obtenido, manteniéndose más parejo en los restantes. 
 
 Resumen experimental con la mejor CNN en cada experimento:
 
@@ -50,7 +50,17 @@ Resumen experimental con la mejor CNN en cada experimento:
 | **Experimento M-B** | **VGG19: 70%** | MobileNetV2:67.08% | VGG16: 69% |
 | **Experimento M-C** | **ResNet50: 92.5%** | No relizado | VGG16: 91.66% |
 
-Resumen experimental utilizando *soft voting*
+Resumen experimental encontrando la mejor combiación de CNNs en las votaciones (*soft voting*):
+
+| **Experimento** | **CNN con accuracy obtenido (resultados de arriba)** | **Accuracy obtenido con las CNNs:**
+| :--- | :--- | :--- |
+| **Masas** | VGG19 e InceptionV3: 74.48% | **VGG16-VGG19: 75.36%** |
+| **Calcificaciones** | DenseNet121: 67.56% | **VGG16-ReNet50-MobileNetV2: 69.4%** |
+| **Multiclase** | ResNet50: 62.5% | **VGG16-InceptionV3-ResNet50: 66.16%** |
+| **Experimento M-B** | VGG19: 70% | **VGG16-DenseNet121-MobileNetV2: 72.5%** |
+| **Experimento M-C** | ResNet50: 92.5% | **VGG16-DenseNet121: 94.83%** |
+| **Experimento M-C (Anexos de la Tesis)** | ResNet50: 94.5% | **ResNet50-DenseNet121: 95.33%** |
+
 
 Para terminar se menciona que en los otros dos bloques experimentales se experimentó de manera diferente y con código más organizado, involucrando el aprendizaje de máquina y más métodos de ensamble. 
 
