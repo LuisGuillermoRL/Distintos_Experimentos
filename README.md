@@ -22,7 +22,7 @@ Para todos los experimentos realizados se utilizó la [base de datos **CBIS-DDSM
 De manera rápida se menciona lo siguiente:
 
 * Se experimentó con cada una de las CNNS variando el número de Neuronas
-* Debido a que no son muchas imágenes, se utilizó el **Image Data Generator de TensorFlow**, abreviado aquí por **IDG**. Este ayuda a evitar el *sobreajuste* y a elevar un poco la tasa de clasificación. Para esto se exploraron a la par distintos parámetros para el **IDG**, llamados en la tesis *Parámetros Propuestos* y *Parámetros Iniciales* (los que usó **LAAAIIII**). A continuación se ilustra una muestra de las operaciones realizadas a un parche con los *Parámetros Propuestos* indicados en el **IDG** de Tensorflow.
+* Debido a que no son muchas imágenes, se utilizó el **Image Data Generator de TensorFlow**, abreviado aquí por **IDG**. Este ayuda a evitar el *sobreajuste* y a elevar un poco la tasa de clasificación. Para esto se exploraron a la par distintos parámetros para el **IDG**, llamados en la tesis *Parámetros Propuestos* y *Parámetros Iniciales* (los que usó [**Lai**](https://github.com/leoll2/MedicalCNN/tree/master)). A continuación se ilustra una muestra de las operaciones realizadas a un parche con los *Parámetros Propuestos* indicados en el **IDG** de Tensorflow.
 
 ![Muestra](./docs/Muestra.png)
 
