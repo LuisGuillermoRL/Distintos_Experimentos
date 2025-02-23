@@ -17,12 +17,12 @@ Para todos los experimentos realizados se utilizó la [base de datos **CBIS-DDSM
 
 * [**Experimento Malignas-Benignas (M-B)**](./M-B_CLAHE_VGG19.ipynb). Con el fin de utilizar todas las imágenes para detectar cáncer *de manera distinta* al **Experimento Multiclase**, en este se definieron dos clases: **Malignas** y **Benignas**, sin importar si son masas o calcificaciones (su anormalidad). Es decir, se juntaron Masas y Calcificaciones Malignas para representar la clase  **Malignas**  y se juntaron Masas y Calcificaciones Benignas para representar la clase  **Benignas**.
 
-* [**Experimento Masas-Calcificaciones (M-C)**](./M-C_ResNet50.ipynb). Este experimento es de *clasificación binaria*: una clase es **Masa** y la otra **Calcificación**. En este experimento se usaron todas las imágenes, pero este no ayuda a detectar cáncer, ya que solo distingue entre Masas y Calcificaciones. Este fue realizado para evaluar el rendimiento de distintas CNNs así como para comparar los resultados obtenidos por [**Lai**](https://github.com/leoll2/MedicalCNN/tree/master) ya que este autor lo realizó.
+* [**Experimento Masas-Calcificaciones (M-C)**](./M-C_ResNet50.ipynb). Este experimento es de *clasificación binaria*: una clase es **Masa** y la otra **Calcificación**. En este experimento se usaron todas las imágenes, pero este no ayuda a detectar cáncer, ya que solo distingue entre Masas y Calcificaciones. Este fue realizado para evaluar el rendimiento de distintas CNNs así como para comparar los resultados obtenidos por [**Lai (2021)**](https://github.com/leoll2/MedicalCNN/tree/master) ya que este autor lo realizó.
 
 De manera rápida se menciona lo siguiente:
 
 * Se experimentó con cada una de las CNNS variando el número de Neuronas
-* Debido a que no son muchas imágenes, se utilizó el **Image Data Generator de TensorFlow**, abreviado aquí por **IDG**. Este ayuda a evitar el *sobreajuste* y a elevar un poco la tasa de clasificación. Para esto se exploraron a la par distintos parámetros para el **IDG**, llamados en la tesis *Parámetros Propuestos* y *Parámetros Iniciales* (los que usó [**Lai**](https://github.com/leoll2/MedicalCNN/tree/master)). A continuación se ilustra una muestra de las operaciones realizadas a un parche con los *Parámetros Propuestos* indicados en el **IDG** de Tensorflow.
+* Debido a que no son muchas imágenes, se utilizó el **Image Data Generator de TensorFlow**, abreviado aquí por **IDG**. Este ayuda a evitar el *sobreajuste* y a elevar un poco la tasa de clasificación. Para esto se exploraron a la par distintos parámetros para el **IDG**, llamados en la tesis *Parámetros Propuestos* y *Parámetros Iniciales* (los que usó [**Lai (2021)**](https://github.com/leoll2/MedicalCNN/tree/master)). A continuación se ilustra una muestra de las operaciones realizadas a un parche con los *Parámetros Propuestos* indicados en el **IDG** de Tensorflow.
 
 ![Muestra](./docs/Muestra.png)
 
@@ -42,7 +42,7 @@ Como se puede ver, fueron muchas las combinaciones realizadas, por lo que de man
 
 Resumen experimental con la mejor CNN en cada experimento:
 
-| **Experimento** | **CNN con accuracy obtenido** | **Jaamour et al. (2023)** | **[Lai](https://github.com/leoll2/MedicalCNN/tree/master)**|
+| **Experimento** | **CNN con accuracy obtenido** | **[Jaamour et al. (2023)](./docs/BCD_using_DL_Techniques.pdf)** | **[Lai (2021)](https://github.com/leoll2/MedicalCNN/tree/master)**|
 | :--- | :--- | :--- | :--- |
 | **Masas** | **Varias: 74.48%** | VGG19: 64.35% | No realizado |
 | **Calcificaciones** | **DenseNet121: 67.56%** | VGG19: 67.05% | No realizado |
