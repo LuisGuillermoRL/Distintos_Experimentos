@@ -17,7 +17,7 @@ Para todos los experimentos realizados se utilizó la [base de datos **CBIS-DDSM
 
 * [**Experimento Malignas-Benignas (M-B)**](./M-B_CLAHE_VGG19.ipynb). Con el fin de utilizar todas las imágenes para detectar cáncer *de manera distinta* al **Experimento Multiclase**, en este se definieron dos clases: **Malignas** y **Benignas**, sin importar si son masas o calcificaciones (su anormalidad). Es decir, se juntaron Masas y Calcificaciones Malignas para representar la clase  **Malignas**  y se juntaron Masas y Calcificaciones Benignas para representar la clase  **Benignas**.
 
-* [**Experimento Masas-Calcificaciones (M-C)**](./M-C_ResNet50.ipynb). Este experimento es de *clasificación binaria*: una clase es **Masa** y la otra **Calcificación**. En este experimento se usaron todas las imágenes, pero este no ayuda a detectar cáncer, ya que solo distingue entre Masas y Calcificaciones. Este fue realizado para evaluar el rendimiento de distintas CNNs así como para comparar los resultados obtenidos por [**LAI**](https://github.com/leoll2/MedicalCNN/tree/master) ya que este autor lo realizó.
+* [**Experimento Masas-Calcificaciones (M-C)**](./M-C_ResNet50.ipynb). Este experimento es de *clasificación binaria*: una clase es **Masa** y la otra **Calcificación**. En este experimento se usaron todas las imágenes, pero este no ayuda a detectar cáncer, ya que solo distingue entre Masas y Calcificaciones. Este fue realizado para evaluar el rendimiento de distintas CNNs así como para comparar los resultados obtenidos por [**Lai**](https://github.com/leoll2/MedicalCNN/tree/master) ya que este autor lo realizó.
 
 De manera rápida se menciona lo siguiente:
 
@@ -30,7 +30,7 @@ De manera rápida se menciona lo siguiente:
 
 ![GAVGP2D](./docs/gavgp.png)
 
-* La técnica de **CLAHE** también se les aplicó a las imágenes para tratar de ayudar a elevar la tasa de clasificación, para esto, se utilizó la librería de **OpenCV**, con el método \texttt{cv2.createCLAHE()} con los parámetros standar. A continuación se muestran distintos resultados al aplicarle CLAHE (con distintos parámetros) a un parche correspondiente a una masa.
+* La técnica de **CLAHE** también se les aplicó a las imágenes para tratar de ayudar a elevar la tasa de clasificación, para esto, se utilizó la librería de **OpenCV**, con el método *cv2.createCLAHE()* con los parámetros standar. A continuación se muestran distintos resultados al aplicarle CLAHE (con distintos parámetros) a un parche correspondiente a una masa.
 
 ![muestra CLAHE](./docs/CLAHE_mass.png)
 
