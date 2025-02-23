@@ -3,9 +3,9 @@
 
 Para todos los experimentos realizados se utilizó la [base de datos **CBIS-DDSM**](https://github.com/LuisGuillermoRL/EDA_CBIS-DDSM/blob/main/docs/sdata2017177.pdf) y mediante la exploración, etiquetado y obtención de imágenes de esta base de datos ([EDA](https://github.com/LuisGuillermoRL/EDA_CBIS-DDSM/tree/main)) fue posible realizar los experimentos que se describen más abajo. La base de datos cuenta con dos "anormalidades" encontradas en las mastografías: **Masas** y **Calcificaciones**; a su vez divididas por sus patologías: **Benignas** y **Malignas**. Cabe aclarar que aunque la base de datos cuenta con las mastografías completas, las máscaras o ROIs de los cuáles se extraen los parches (*Cropped images*) y los parches, solamente se trabajó con estos últimos y con un tamaño (*resize*) de $224 \times 224$, ya que en estos se presenta la información más relevante, es decir, no se necesita toda la mastografía completa para empezar a atacar la problemática. A continuación se muestran los parches (Cropped) con los que se realizaron los experimentos.
 
-![Masas](/EDA_CBIS-DDSM/docs/Masas.png)
+![Masas](./docs/Masas.png)
 
-![Calc](/EDA_CBIS-DDSM/docs/Calc.png)
+![Calc](./docs/Calc.png)
 
  En este repositorio se muestran algunos ejemplos y resultados de los experimentos realizados para el tema de Tesis. A continuación se definen estos y se ilustran algunos de estos.
 
