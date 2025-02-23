@@ -64,7 +64,7 @@ Resumen experimental encontrando la mejor combiación de CNNs en las votaciones 
 
 Para terminar se menciona que en los otros dos bloques experimentales se experimentó de manera diferente y con código más organizado, involucrando el aprendizaje de máquina y más métodos de ensamble. 
 
-**Nota:** Etos experimentos se realizaron en un entorno virtual de **Python (venv)** en *Windows* con **TensorFlow** versión **11** y una **GPU NVIDIA RTX 4080**.
+**Nota:** Estos experimentos se realizaron en un entorno virtual de **Python (venv)** en *Windows* con **TensorFlow** versión **11** y una **GPU NVIDIA RTX 4080**.
 
 
 
