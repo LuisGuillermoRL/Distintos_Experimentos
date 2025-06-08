@@ -46,7 +46,7 @@ As you can see, we performed many combinations of experiments. In summary, no si
 
 Here's an experimental summary featuring the best CNN for each experiment:
 
-| **Experiment** | **CNN Accuracy ** | **[Jaamour et al. (2023)](./docs/BCD_using_DL_Techniques.pdf)** | **[Lai (2021)](https://github.com/leoll2/MedicalCNN/tree/master)**|
+| **Experiment** | **CNN Accuracy** | **[Jaamour et al. (2023)](./docs/BCD_using_DL_Techniques.pdf)** | **[Lai (2021)](https://github.com/leoll2/MedicalCNN/tree/master)**|
 | :--- | :--- | :--- | :--- |
 | **Masses** | **Varias: 74.48%** | VGG19: 64.35% | No realizado |
 | **Calcifications** | **DenseNet121: 67.56%** | VGG19: 67.05% | No realizado |
@@ -56,7 +56,7 @@ Here's an experimental summary featuring the best CNN for each experiment:
 
 Experimental Summary: Best CNN Combination in *Soft Voting*:
 
-| **Experimento** | **Accuracys from the Table Above** | **Accuracys (Soft Voting)**
+| **Experimento** | **CNNs and Accuracys (Above)** | **CNNs and Accuracys (Soft Voting)**
 | :--- | :--- | :--- |
 | **Masses** | VGG19 e InceptionV3: 74.48% | **VGG16-VGG19: 75.36%** |
 | **Calcifications** | DenseNet121: 67.56% | **VGG16-ReNet50-MobileNetV2: 69.4%** |
